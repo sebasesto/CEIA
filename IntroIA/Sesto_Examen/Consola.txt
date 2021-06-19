@@ -1,0 +1,56 @@
+/home/seba/anaconda3/envs/Sesto_Examen/bin/python /home/seba/CEIA-Sesto/04-Intro_IA/Sesto_Examen/main.py
+Creating new Dataset instance
+Initialising Dataset
+Epoch: 0| Error de training: 1356.41, Error de validacion:1320.43
+Epoch: 1| Error de training: 510.94, Error de validacion:526.57
+Epoch: 2| Error de training: 210.57, Error de validacion:218.57
+Epoch: 3| Error de training: 92.13, Error de validacion:93.47
+Epoch: 4| Error de training: 47.07, Error de validacion:45.0
+Epoch: 5| Error de training: 28.66, Error de validacion:25.12
+Epoch: 6| Error de training: 20.89, Error de validacion:16.6
+Epoch: 7| Error de training: 17.44, Error de validacion:13.05
+Epoch: 8| Error de training: 15.75, Error de validacion:11.38
+Epoch: 9| Error de training: 14.81, Error de validacion:10.62
+Epoch: 10| Error de training: 14.14, Error de validacion:10.11
+Epoch: 11| Error de training: 13.69, Error de validacion:9.79
+Epoch: 12| Error de training: 13.33, Error de validacion:9.55
+Epoch: 13| Error de training: 12.98, Error de validacion:9.32
+Epoch: 14| Error de training: 12.73, Error de validacion:9.18
+Epoch: 15| Error de training: 12.5, Error de validacion:9.03
+Epoch: 16| Error de training: 12.3, Error de validacion:8.91
+Epoch: 17| Error de training: 12.15, Error de validacion:8.84
+Epoch: 18| Error de training: 11.98, Error de validacion:8.72
+Epoch: 19| Error de training: 11.81, Error de validacion:8.62
+Epoch: 20| Error de training: 11.67, Error de validacion:8.54
+Epoch: 21| Error de training: 11.54, Error de validacion:8.46
+Epoch: 22| Error de training: 11.44, Error de validacion:8.41
+Epoch: 23| Error de training: 11.32, Error de validacion:8.36
+Epoch: 24| Error de training: 11.21, Error de validacion:8.29
+Epoch: 25| Error de training: 11.1, Error de validacion:8.22
+Epoch: 26| Error de training: 11.03, Error de validacion:8.18
+Epoch: 27| Error de training: 10.97, Error de validacion:8.16
+Epoch: 28| Error de training: 10.9, Error de validacion:8.13
+Epoch: 29| Error de training: 10.84, Error de validacion:8.11
+Epoch: 30| Error de training: 10.76, Error de validacion:8.05
+Epoch: 31| Error de training: 10.73, Error de validacion:8.06
+Epoch: 32| Error de training: 10.67, Error de validacion:8.0
+Epoch: 33| Error de training: 10.62, Error de validacion:7.97
+Epoch: 34| Error de training: 10.57, Error de validacion:7.96
+Epoch: 35| Error de training: 10.51, Error de validacion:7.92
+Epoch: 36| Error de training: 10.47, Error de validacion:7.88
+Epoch: 37| Error de training: 10.41, Error de validacion:7.84
+Epoch: 38| Error de training: 10.4, Error de validacion:7.87
+Epoch: 39| Error de training: 10.37, Error de validacion:7.86
+Epoch: 40| Error de training: 10.35, Error de validacion:7.87
+Epoch: 41| Error de training: 10.32, Error de validacion:7.85
+Epoch: 42| Error de training: 10.27, Error de validacion:7.8
+Epoch: 43| Error de training: 10.25, Error de validacion:7.79
+Epoch: 44| Error de training: 10.24, Error de validacion:7.8
+Epoch: 45| Error de training: 10.25, Error de validacion:7.85
+Epoch: 46| Error de training: 10.21, Error de validacion:7.8
+Epoch: 47| Error de training: 10.16, Error de validacion:7.75
+Epoch: 48| Error de training: 10.15, Error de validacion:7.75
+Epoch: 49| Error de training: 10.13, Error de validacion:7.73
+[[ 18.175034    -0.54210615  33.00886    -12.8082695 ]]
+[ 18.10162951  -2.09665263  32.71806615 -11.97472492]
+

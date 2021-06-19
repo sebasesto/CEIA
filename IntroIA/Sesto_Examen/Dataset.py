@@ -1,6 +1,6 @@
 import pickle
-import numpy as np
 import csv
+import numpy as np
 
 class Dataset:
     instance = None
@@ -38,13 +38,8 @@ class Dataset:
 
                         gen = generator(csv_reader)
 
-                        # Simplified solution (Lautaro)
-                        #                         gen = ((int(line.split(',')[0]),int(line.split(',')[1]),
-                        #                               float(line.split(',')[2]),int(line.split(',')[3]))
-                        #                                for i, line in enumerate(csv_file) if i != 0)
-
-                        structure = [('Entrada', np.float32),
-                                     ('Salida', np.float32)]
+                        structure = [('entrada', np.float32),
+                                     ('salida', np.float32)]
 
                         array = np.fromiter(gen, dtype=structure)
 
@@ -61,12 +56,11 @@ class Dataset:
         finally:
             pkl_file.close()
 
-    @staticmethod
     def split_dataset(x, y=None, training_percentage=0.7, validation_percentage=None):
         idx = np.random.permutation(x.shape[0])
         x = x[idx]
         y = y[idx]
-        a = round(x.shape[0] * training_percentage)
+        a = int(x.shape[0] * training_percentage)
 
         if validation_percentage is None:
             tx = x[:a]

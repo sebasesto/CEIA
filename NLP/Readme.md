@@ -34,9 +34,9 @@ In this challenge, we learn the concept of a **Long-Short Term Memory (LSTM)** a
 🖇️[Link to code](https://github.com/sebasesto/CEIA/blob/master/NLP/Sesto_5_Clothing_ecommerce_reviews.ipynb)
 
 ## Challenge N°6: Q&A bot using Seq2Seq
-In this challenge, we build a **conversational bot** with **encoder-decoder seq2seq** architecture. The user can ask some questions and the bot will answer.
+In this challenge, we build a **conversational bot** with **encoder-decoder seq2seq** architecture. The user can ask some questions and the bot will answer. To stop the interaction with the bot send an empty string.
 
-🖇️[Link to code IN PROGRES](https://........vec.ipynb)
+🖇️[Link to code](https://github.com/sebasesto/CEIA/blob/master/NLP/Sesto_6d_bot_qa.ipynb)
 
 ---
 

@@ -14,6 +14,14 @@ Utilizando el dataset de señas de manos, crear una red neuronal con caracterist
 
 🖇️[Link to code](https://github.com/sebasesto/CEIA/blob/master/VpC2/Clase_2_Tarea_con_DataAugmentation_Sesto.ipynb)
 
+## Tarea N°2: 
+Se realiza la implementación de un sistema de clasificación de frutas mediante la utilización de **transfer learning** utilizando el modelo **VGG16** y luego se agregan 2 capas densas para entrenar y clasificar. Dichas capas son entrenadas durante sólo 10 épocas dando muy buen resultado para el set de entrenamiento pero denotando un overfitting cuando se devalúa.
+
+Un claro problema de este modelo es la gran cantidad de clases (131) que se quieren clasificar en relación con la poca cantidad de imágenes por clases.
+Se podría aumentar la cantidad de capas a ser entrenadas. Por otra parte el dataset utilizado, debería tener mayor dispersión de los datos y evaluarse con distintos parámetros en la etapa de data augmentation.
+
+🖇️[Link to code](https://github.com/sebasesto/CEIA/blob/master/VpC2/Clase_3_Tarea_Transfer_Learning.ipynb)
+
 ---
 
 ## Author  ✒️
